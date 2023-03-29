@@ -17,7 +17,7 @@ import likesRouter from "./api/likesRouter.js";
 
 const port = process.env.PORT;
 
-const whitelist = ['https://localhost:3000']
+const whitelist = ['http://localhost:3000']
 
 const corsConfig = {
   origin: [...whitelist],
