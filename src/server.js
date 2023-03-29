@@ -17,7 +17,7 @@ import likesRouter from "./api/likesRouter.js";
 
 const port = process.env.PORT;
 
-const whitelist = ['https://master--super-lily-a3bcb8.netlify.app']
+const whitelist = [process.env.FE_ORIGIN]
 
 const corsConfig = {
   origin: [...whitelist],
