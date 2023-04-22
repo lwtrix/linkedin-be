@@ -21,7 +21,8 @@ const whitelist = [process.env.FE_ORIGIN]
 
 const corsConfig = {
   origin: [...whitelist],
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
+  allowedHeaders: ['Content-Type', 'Authorization']
 }
 
 const server = express();
